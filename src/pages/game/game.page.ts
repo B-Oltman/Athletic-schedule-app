@@ -1,9 +1,9 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    templateUrl: 'build/pages/my-teams/my-teams.page.html'
+    templateUrl: 'pages/game/game.page.html'
 })
-export class MyTeamsPage {
+export class GamePage {
 
     constructor() { }
 

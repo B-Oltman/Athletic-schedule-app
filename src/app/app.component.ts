@@ -2,9 +2,11 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
-import { MyTeamsPage } from './pages/pages';
+import { GamePage } from '../pages/game/game.page';
+import { MyTeamsPage } from '../pages/my-teams/my-teams.page';
+import { TeamDetailPage } from '../pages/team-detail/team-detail.page';
+import { TeamsPage } from '../pages/teams/teams.page';
+import { TournamentPage } from '../pages/tournaments/tournaments.page';
 
 
 @Component({
@@ -13,16 +15,12 @@ import { MyTeamsPage } from './pages/pages';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = Page1;
+  rootPage: any = MyTeamsPage;
+
+
 
   constructor(public platform: Platform) {
     this.initializeApp();
-
-    // used for an example of ngFor and navigation
-    this.pages = [
-      { title: 'Page One', component: Page1 },
-      { title: 'Page Two', component: Page2 }
-    ];
 
   }
 

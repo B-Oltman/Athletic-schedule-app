@@ -1,7 +1,7 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    templateUrl: 'build/pages/tournaments/tournaments.pages.html'
+    templateUrl: 'pages/tournaments/tournaments.page.html'
 })
 export class TournamentPage {
 
