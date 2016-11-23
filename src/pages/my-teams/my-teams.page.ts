@@ -1,9 +1,13 @@
 ﻿import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { TournamentsPage } from '../pages';
+
+// This is the wrong way to import -> import { TournamentsPage } from '../pages';
+
+import { TournamentsPage } from '../tournaments/tournaments.page';
+
 @Component({
-    templateUrl: 'pages/my-teams/my-teams.page.html'
+    templateUrl: 'my-teams.page.html'
 })
 export class MyTeamsPage {
 

@@ -6,7 +6,7 @@ import { GamePage } from '../pages/game/game.page';
 import { MyTeamsPage } from '../pages/my-teams/my-teams.page';
 import { TeamDetailPage } from '../pages/team-detail/team-detail.page';
 import { TeamsPage } from '../pages/teams/teams.page';
-import { TournamentPage } from '../pages/tournaments/tournaments.page';
+import { TournamentsPage } from '../pages/tournaments/tournaments.page';
 
 
 @Component({
