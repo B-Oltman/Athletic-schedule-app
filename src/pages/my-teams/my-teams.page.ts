@@ -1,15 +1,15 @@
 ﻿import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { TournamentPage } from '../pages';
+import { TournamentPage } from '../tournaments/tournaments.page';
 @Component({
-    templateUrl: 'pages/my-teams/my-teams.page.html'
+    templateUrl: 'my-teams.page.html'
 })
 export class MyTeamsPage {
 
     constructor(private nav: NavController) { }
 
     goToTournaments() {
-        this.nav.push(TournamentsPage);
+        this.nav.push(TournamentPage);
     }
 }
