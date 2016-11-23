@@ -3,7 +3,7 @@
 @Component({
     templateUrl: 'pages/tournaments/tournaments.page.html'
 })
-export class TournamentPage {
+export class TournamentsPage {
 
     constructor() { }
 
